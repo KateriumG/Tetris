@@ -2,4 +2,12 @@ body {
     height: 100%;
     margin: 0;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    border: solid 1px white;
+    
 }
