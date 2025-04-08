@@ -27,6 +27,32 @@ function getRandomInt(min, max) {
     const col = playfield[0].length / 2 - Math.ceil(matrix[0].length / 2);
   
     const row = name === 'I' ? -1 : -2;
+
+    'I', 'J', 'L', 'O', 'S', 'T', 'Z'
+
+    switch (name){
+        case 'I':
+            document.getElementById("preview").src = "i.png";
+            break;
+        case 'J':
+            document.getElementById("preview").src = "j.png";
+            break;
+        case 'O':
+            document.getElementById("preview").src = "o.png";
+            break;
+        case 'S':
+            document.getElementById("preview").src = "s.png";
+            break;
+        case 'T':
+            document.getElementById("preview").src = "t.png";
+            break;
+        case 'Z':
+            document.getElementById("preview").src = "z.png";
+            break;
+        case 'L':
+            document.getElementById("preview").src = "l.png";
+            break;
+    }
   
     return {
       name: name,      // name of the piece (L, O, etc.)
