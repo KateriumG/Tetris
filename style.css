@@ -7,7 +7,10 @@ body {
     justify-content: center;
 }
 
-canvas div {
+canvas, div {
     border: solid 1px white;
     background-color: black;
+}
+h1 {
+    color: white;
 }
